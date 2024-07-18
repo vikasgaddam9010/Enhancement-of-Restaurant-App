@@ -5,3 +5,12 @@ hr {
   list-style-type: none;
   padding: 10px;
 }
+.loader {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

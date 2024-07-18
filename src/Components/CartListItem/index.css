@@ -1,0 +1,60 @@
+.cart-list-li {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgrey;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.d-flex-column {
+  display: flex;
+  width: 110px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 25px;
+  margin: 0px 150px;
+}
+
+.btn-inc-dec {
+  background-color: #ffffff;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  width: 20px;
+}
+.quantity-cart {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.flex-start {
+  display: flex;
+}
+
+.cart-list-img {
+  margin-right: 20px;
+  width: 100px;
+  height: 150px;
+  border-radius: 10px;
+}
+.ml-10 {
+  margin-left: 10px;
+  align-self: flex-start;
+  width: 450px;
+}
+.name-of-the-dish {
+  margin-top: 0px;
+}
+
+span {
+  font-weight: 600;
+  font-size: 16px;
+}
+.delete-icon {
+  font-size: 30px;
+  margin-right: 50px;
+}

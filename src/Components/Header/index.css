@@ -5,23 +5,42 @@
   align-items: center;
 }
 .d-flex {
-  width: 150px;
   font-size: 20px;
   font-weight: 600;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+}
+.cart-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  padding: 10px 0px 0px 0px;
+}
+.w-5 {
+  margin-right: 30px;
+}
+.btn-99 {
+  background-color: black;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-left: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.heading {
+  text-decoration: none;
+  color: black;
 }
 .cart-count-badge {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: orange;
-  height: 25px;
-  width: 25px;
-  color: #ffffff;
+  background-color: rgb(241, 199, 125);
+  padding: 3px 8px;
+
   border-radius: 50%;
-  position: absolute;
-  top: 10px;
-  right: 10px;
 }
